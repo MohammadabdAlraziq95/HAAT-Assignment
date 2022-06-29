@@ -35,8 +35,7 @@ extension UITextField{
         self.inputAccessoryView = doneToolbar
     }
     
-    @objc func doneButtonAction()
-    {
+    @objc func doneButtonAction() {
         self.resignFirstResponder()
     }
 }
