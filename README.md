@@ -63,7 +63,7 @@ used firebase siwft package to manage crashes using Firebase Crashlytics , Fireb
 
 # video
 
-https://user-images.githubusercontent.com/38591209/176437977-52a50fa9-f0b6-49b2-bd9e-ea4949b91cec.mov
+https://user-images.githubusercontent.com/38591209/176475430-87e61b5a-2615-4a41-82dc-af97afddc5a1.mov
 
 
 # Screenshots
