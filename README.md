@@ -35,7 +35,7 @@ ordering food online mockup , the purpuse is to test my coding skills and ios mo
  2- used Reusable UI just like (Reusable Cells , Custom Alert , CarouselView) <br />
  3- used (collectionViews , TableViews) to store dynamic data <br />
  4- some extensions used to beautify Views and adding new functinalites needed  ( UIImageView+Extension , UITextFiled+Extension , .. ) <br />
- 5- used usuall UIView elements like (UITextField , UIButton , UIImageView , UILabel , ..)<br />
+ 5- used usuall UIView elements like (UITextField , UIButton , UIImageView , UILabel , UISearchBar ..)<br />
  
  
  # Logic Layer 
@@ -66,24 +66,24 @@ https://user-images.githubusercontent.com/38591209/176437977-52a50fa9-f0b6-49b2-
 Authantication <br />
 
 <p float="left">
-  <img src="/HAAT-Assignment/Resources/Screenshots/SignUp.png" width="150" /> 
-  <img src="/HAAT-Assignment/Resources/Screenshots/SignUpPhone.png" width="150" />
-  <img src="/HAAT-Assignment/Resources/Screenshots/AuthCode.png" width="150" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/SignUp.png" width="250" /> 
+  <img src="/HAAT-Assignment/Resources/Screenshots/SignUpPhone.png" width="250" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/AuthCode.png" width="250" />
 </p>
 
 Resturants and Meals <br />
 <p float="left">
-  <img src="/HAAT-Assignment/Resources/Screenshots/Home.png" width="150" /> 
-  <img src="/HAAT-Assignment/Resources/Screenshots/Meals.png" width="150" />
-  <img src="/HAAT-Assignment/Resources/Screenshots/Search.png" width="150" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/Home.png" width="250" /> 
+  <img src="/HAAT-Assignment/Resources/Screenshots/Meals.png" width="250" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/Search.png" width="250" />
 </p>
 
 Shopping Cart <br />
 
 <p float="left">
-  <img src="/HAAT-Assignment/Resources/Screenshots/AddToCart.png" width="150" /> 
-  <img src="/HAAT-Assignment/Resources/Screenshots/Cart.png" width="150" />
-  <img src="/HAAT-Assignment/Resources/Screenshots/Error.png" width="150" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/AddToCart.png" width="250" /> 
+  <img src="/HAAT-Assignment/Resources/Screenshots/Cart.png" width="250" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/Error.png" width="250" />
 </p>
 
 Crashlytics and Analysis <br />
