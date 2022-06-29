@@ -7,4 +7,4 @@ ordering food online mockup , the purpuse is to test my coding skills and ios mo
 # Screenshots
 
 Authantication 
-![](Resources/Screenshots/Launch.png)
+![](/Resources/Screenshots/Launch.png)
