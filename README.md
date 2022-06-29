@@ -19,7 +19,7 @@ ordering food online mockup , the purpuse is to test my coding skills and ios mo
  
 # Storage Layer
 
- 1- fake json reponse used json files (MealBrands.json , Users.json). <br />
+ 1- fake json response used json files (MealBrands.json , Users.json). <br />
  2- to store cart items used (CoreData). <br />
  3- to manage current user logged in used(UserDefualts). <br />
 
