@@ -1,0 +1,12 @@
+{
+    "error": false,
+    "msg": "users have been retrieved",
+    "users": [
+        {
+            "username": "mohammad",
+            "phoneNumber": "+972592750327",
+            "authCode": "0000"
+            
+        }
+    ]
+}

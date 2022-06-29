@@ -1,0 +1,61 @@
+{
+    "error": false,
+    "msg": "MealBrands have been retrieved",
+    "brands": [
+        {
+            "title": "Pizza Hut",
+            "subtitle": "beautiful taste",
+            "imageUrl": "https://d3dwwd0h9gl2qw.cloudfront.net/wp-content/uploads/2019/01/10181328/Pizza-Hut-logo-Illustrator-01.png",
+            "meals":
+            [
+                {
+                    "title":"Large Pizza",
+                    "price":"32",
+                    "imageURL":"https://www.speedlinesolutions.com/hubfs/Half-and-half-pizza-2.png"
+                },
+                {
+                    "title":"Medium Pizza",
+                    "price":"25",
+                    "imageURL":"https://www.speedlinesolutions.com/hubfs/Half-and-half-pizza-2.png"
+                }
+            ]
+        },
+        {
+            "title": "MCDonald's",
+            "subtitle": "beautiful taste",
+            "imageUrl": "https://renegadebusinesssolutions.com/wp-content/uploads/2017/01/McDonalds_Logo.png",
+            "meals":
+            [
+                {
+                    "title":"Large Pizza",
+                    "price":"32",
+                    "imageURL":"https://www.speedlinesolutions.com/hubfs/Half-and-half-pizza-2.png"
+                },
+                {
+                    "title":"Medium Pizza",
+                    "price":"25",
+                    "imageURL":"https://www.speedlinesolutions.com/hubfs/Half-and-half-pizza-2.png"
+                }
+            ]
+        },
+        {
+            "title": "Domino's",
+            "subtitle": "beautiful taste",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/2036px-Domino%27s_pizza_logo.svg.png",
+            "meals":
+            [
+                {
+                    "title":"Large Pizza",
+                    "price":"32",
+                    "imageURL":"https://www.speedlinesolutions.com/hubfs/Half-and-half-pizza-2.png"
+                },
+                {
+                    "title":"Medium Pizza",
+                    "price":"25",
+                    "imageURL":"https://www.speedlinesolutions.com/hubfs/Half-and-half-pizza-2.png"
+                }
+            ]
+        }
+        
+    ]
+}

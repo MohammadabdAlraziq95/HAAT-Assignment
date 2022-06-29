@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3EA-E7-Vth">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Tabbar-->
+        <scene sceneID="oLR-Sy-Dfg">
+            <objects>
+                <tabBarController modalPresentationStyle="fullScreen" id="3EA-E7-Vth" customClass="MainTabbar" customModule="HAAT_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E1G-NS-LBu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.7502362132" green="0.020378397780000002" blue="0.20929795500000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4zM-bT-tFc" kind="relationship" relationship="viewControllers" id="8Uw-gC-oSW"/>
+                        <segue destination="CkL-Ne-X3q" kind="relationship" relationship="viewControllers" id="sbd-i9-Won"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcn-b3-LTq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2470" y="613"/>
+        </scene>
+        <!--Cart-->
+        <scene sceneID="RAk-PL-dnk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cart" id="Uqg-Ag-a7K" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="b9C-yh-Vh1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jn9-gc-n81" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-358" y="973"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="hHN-Y8-1kx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="AsQ-Ht-JN0" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8TW-PF-s38"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I7L-Gv-g5X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-436" y="279"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dV8-WR-G3D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CkL-Ne-X3q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="cart" catalog="system" id="gqK-gT-HXH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XW8-43-kUA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Uqg-Ag-a7K" kind="relationship" relationship="rootViewController" id="HE8-md-aKZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Urb-WF-bf5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1565" y="973"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dub-7H-dNR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4zM-bT-tFc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="BHO-H9-Idc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IFe-K5-AFn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AsQ-Ht-JN0" kind="relationship" relationship="rootViewController" id="Xte-7A-pX7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AGc-AA-MF5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1564" y="279"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+    </resources>
+</document>
