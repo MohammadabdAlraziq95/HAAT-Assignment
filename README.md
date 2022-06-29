@@ -66,24 +66,24 @@ https://user-images.githubusercontent.com/38591209/176437977-52a50fa9-f0b6-49b2-
 Authantication <br />
 
 <p float="left">
-  <img src="/HAAT-Assignment/Resources/Screenshots/SignUp.png" width="100" /> 
-  <img src="/HAAT-Assignment/Resources/Screenshots/SignUpPhone.png" width="100" />
-  <img src="/HAAT-Assignment/Resources/Screenshots/AuthCode.png" width="100" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/SignUp.png" width="150" /> 
+  <img src="/HAAT-Assignment/Resources/Screenshots/SignUpPhone.png" width="150" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/AuthCode.png" width="150" />
 </p>
 
 Resturants and Meals <br />
 <p float="left">
-  <img src="/HAAT-Assignment/Resources/Screenshots/Home.png" width="100" /> 
-  <img src="/HAAT-Assignment/Resources/Screenshots/Meals.png" width="100" />
-  <img src="/HAAT-Assignment/Resources/Screenshots/Search.png" width="100" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/Home.png" width="150" /> 
+  <img src="/HAAT-Assignment/Resources/Screenshots/Meals.png" width="150" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/Search.png" width="150" />
 </p>
 
 Shopping Cart <br />
 
 <p float="left">
-  <img src="/HAAT-Assignment/Resources/Screenshots/AddToCart.png" width="100" /> 
-  <img src="/HAAT-Assignment/Resources/Screenshots/Cart.png" width="100" />
-  <img src="/HAAT-Assignment/Resources/Screenshots/Error.png" width="100" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/AddToCart.png" width="150" /> 
+  <img src="/HAAT-Assignment/Resources/Screenshots/Cart.png" width="150" />
+  <img src="/HAAT-Assignment/Resources/Screenshots/Error.png" width="150" />
 </p>
 
 Crashlytics and Analysis <br />
