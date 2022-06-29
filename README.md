@@ -6,7 +6,7 @@ ordering food online mockup , the purpuse is to test my coding skills and ios mo
 # How To Run 
 
 1- download the project <br />
-2- go to project dirictory <br />
+2- go to project directory <br />
 3- pod install <br />
 4- run or test <br />
 5- use phone "+972592750327" and authcode "0000" to login <br />
