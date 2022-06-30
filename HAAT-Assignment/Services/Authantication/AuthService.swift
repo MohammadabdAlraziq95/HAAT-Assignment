@@ -9,7 +9,7 @@ import Foundation
 
 class AuthService {
     
-    func loginWithPhone(_ phoneNumber: String, _ authCode:String , completion: @escaping(Bool) -> Void) {
+    func loginWithPhone(_ phoneNumber: String, _ authCode:String, completion: @escaping(Bool) -> Void) {
         
         do {
             if let bundlePath = Bundle.main.path(forResource: "Users", ofType: "json"),

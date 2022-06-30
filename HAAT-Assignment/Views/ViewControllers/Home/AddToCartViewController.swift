@@ -25,7 +25,7 @@ class AddToCartViewController: UIViewController {
         self.selectedMealImageView.getImageFromUrl(url: meal!.imageURL, completion: {_ in})
     }
     @IBAction func addToCartAction(_ sender: Any) {
-        cartViewModel.addToCart(item: self.meal!)
+        _ = cartViewModel.addToCart(item: self.meal!)
         self.dismiss()
     }
     @IBAction func dismissAction(_ sender: Any) {

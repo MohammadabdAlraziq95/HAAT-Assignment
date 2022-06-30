@@ -31,7 +31,7 @@ struct Brand: Codable {
 public class Meal: NSObject, Codable {
     var title, price: String
     var imageURL: String
-    init(title: String,  price: String, imageURL: String) {
+    init(title: String, price: String, imageURL: String) {
         self.title = title
         self.price = price
         self.imageURL = imageURL

@@ -5,7 +5,6 @@
 //  Created by Mo Raziq on 6/28/22.
 //
 
-
 // MARK: - UserModel
 struct UserModel: Codable {
     let error: Bool
