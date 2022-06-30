@@ -1,6 +1,6 @@
 #  Basic Food Delivery Application
 
-ordering food online mockup , the purpuse is to test my coding skills and ios mobile development knowledge.
+ordering food online mockup IOS app , the purpuse is to test my coding skills and ios mobile development knowledge.
 <br />
 
 # How To Run 
@@ -33,12 +33,13 @@ ordering food online mockup , the purpuse is to test my coding skills and ios mo
 
  1- used seperated storyboards (Main.storyboard , Home.storyboard , Cart.Stroyboard , Authentication.storyboard) <br />
  2- used Reusable UI just like (Reusable Cells , Custom Alert , CarouselView). <br />
- 3- used (collectionViews , TableViews) to store dynamic data. <br />
+ 3- used (collectionViews , TableViews) to represent dynamic data. <br />
  4- some extensions used to beautify Views and adding new functinalites needed  ( UIImageView+Extension , UITextFiled+Extension , .. ). <br />
  5- used usuall UIView elements like (UITextField , UIButton , UIImageView , UILabel , UISearchBar ..).<br />
  
  
  # Logic Layer 
+ 
  1- used ViewModels to handle the logic for each ViewController. <br />
  2- protocols used to bind data between objects.  <br />
  3- viewcontroller extensions to confirm protocols. <br />
