@@ -20,12 +20,10 @@ class VerifyPhoneViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         firstCodeTextField.delegate = self
         secondCodeTextFiled.delegate = self
         thirdCodeTextField.delegate = self
         fourthCodeTextField.delegate = self
-        
         self.verifyPhoneViewModel = VerifyPhoneViewModel()
         self.verifyPhoneViewModel?.verifyDelegate = self
     }

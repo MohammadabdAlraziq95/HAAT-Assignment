@@ -8,7 +8,5 @@
 import Foundation
 
 protocol HomeDelegate: AnyObject {
-        
     func updateBrandMealUI(brandMeals:MealBrandModel)
-    
 }

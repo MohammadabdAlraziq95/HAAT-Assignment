@@ -12,5 +12,4 @@ class MainTabbar: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
 }

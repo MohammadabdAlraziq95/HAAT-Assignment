@@ -7,7 +7,5 @@
 
 import Foundation
 protocol SearchDelegate: AnyObject {
-        
     func updateBrandMealUI(brandMeals:[Brand])
-    
 }

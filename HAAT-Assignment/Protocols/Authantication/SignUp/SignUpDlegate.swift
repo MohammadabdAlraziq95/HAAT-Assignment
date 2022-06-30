@@ -8,6 +8,5 @@
 import Foundation
 
 protocol SignUpDlegate: AnyObject {
-    
     func updateCountriesUI(countries:CountriesModel)
 }

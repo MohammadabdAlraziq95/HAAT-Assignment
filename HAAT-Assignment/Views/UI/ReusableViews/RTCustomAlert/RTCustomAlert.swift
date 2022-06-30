@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol RTCustomAlertDelegate: class {
+protocol RTCustomAlertDelegate: AnyObject {
     func okButtonPressed(_ alert: RTCustomAlert, alertTag: Int)
     func cancelButtonPressed(_ alert: RTCustomAlert, alertTag: Int)
 }

@@ -23,15 +23,12 @@ class SignUpViewModel {
                 let countries = CountriesModel(error: true, msg: "No Countries Found", data: [])
                 self?.signUpDelegate!.updateCountriesUI(countries: countries)
             }
-            
         }
     }
     func checkPhoneNumberValidation(phoneNumber: String) -> Bool {
-        
         return phoneNumber.isValidPhone()
     }
     func preparePhoneNumber(intro: String, number: String) -> String {
-        
         var fullPhoneNumber = intro + number
         fullPhoneNumber.removeFirst()
         let phone = String(fullPhoneNumber).trimmingCharacters(in: .whitespaces)

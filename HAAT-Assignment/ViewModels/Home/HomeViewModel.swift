@@ -11,9 +11,9 @@ class HomeViewModel {
     
     weak var homeDelegate: HomeDelegate!
     let mealService = MealService()
-     func checkUserStatus() -> Bool {
+    func checkUserStatus() -> Bool {
         let logged = UserManager.shared.getUserLoggedin()
-         return logged
+        return logged
     }
     func fetchMealsBrands() {
         mealService.getMealBrands { [self] result in
@@ -24,7 +24,6 @@ class HomeViewModel {
                 let mealBrands = MealBrandModel(error: true, msg: "no data", brands: [])
                 homeDelegate.updateBrandMealUI(brandMeals: mealBrands)
             }
-            
         }
     }
     func getCellSize(collectionSize: CGSize) -> CGSize {

@@ -13,7 +13,6 @@ class MealBrandCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var titleBrandMeal: UILabel!
     @IBOutlet weak var subtitleBrandMeal: UILabel!
     
-    
     func populateData(mealData: Brand) {
         self.brandMealImage.getImageFromUrl(url: mealData.imageURL, completion: {_ in })
         self.titleBrandMeal.text = mealData.title

@@ -54,7 +54,6 @@ extension CartViewController: CartCellDelgate {
         self.cartViewModel.deleteToCart(identifer: cartItem)
         getData()
     }
-    
 }
 extension CartViewController: CartViewModelDelegate {
     func displayCart(cartItems: [CartItemInfo]) {
@@ -72,7 +71,6 @@ extension CartViewController: RTCustomAlertDelegate {
         }
         print(alert.alertTitle)
     }
-    
     func cancelButtonPressed(_ alert: RTCustomAlert, alertTag: Int) {
         print("Cancel button pressed")
     }

@@ -40,7 +40,7 @@ class CarouselView: UIView {
     }
     
 }
-extension CarouselView: UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout {
+extension CarouselView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return images.count
     }
@@ -55,4 +55,3 @@ extension CarouselView: UICollectionViewDelegate, UICollectionViewDataSource , U
         return size
     }
 }
-

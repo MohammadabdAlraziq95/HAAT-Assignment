@@ -13,5 +13,4 @@ class ErrorGenerator {
     func generateError() -> String {
         return errorArray.randomElement()!
     }
-    
 }

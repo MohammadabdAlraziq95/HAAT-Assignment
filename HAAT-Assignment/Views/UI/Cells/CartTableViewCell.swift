@@ -12,9 +12,9 @@ class CartTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
-    
     weak var cartCellDelgate: CartCellDelgate?
     var cartItem: CartItemInfo?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

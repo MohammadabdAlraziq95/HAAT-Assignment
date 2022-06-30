@@ -11,7 +11,7 @@ class SearchViewModel {
     weak var searchDelegate: SearchDelegate!
     let mealService = MealService()
     
-    func searchMealBrand(searchText:String) {
+    func searchMealBrand(searchText: String) {
         if searchText.count >= 2 {
         mealService.searchMeal(searchText: searchText) { [self] result in
             switch result {

@@ -7,7 +7,6 @@
 
 import Foundation
 
-protocol CartViewModelDelegate:AnyObject {
+protocol CartViewModelDelegate: AnyObject {
   func displayCart(cartItems: [CartItemInfo])
 }
-
