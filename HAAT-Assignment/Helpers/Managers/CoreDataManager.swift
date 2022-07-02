@@ -16,7 +16,7 @@ open class CoreDataManager: NSObject {
     private override init() {}
     let appDelegate = UIApplication.shared.delegate as? AppDelegate
     
-    func addToCart(item: Meal) -> Bool {
+    func addToCart(_ item: Meal) -> Bool {
         let context  = appDelegate!.persistentContainer.viewContext
         let itemCart = CartItemInfo(context: context)
         itemCart.title = item.title
@@ -33,7 +33,7 @@ open class CoreDataManager: NSObject {
         }
     }
     
-    func deleteToCart(identifer: CartItemInfo) {
+    func deleteToCart(_ identifer: CartItemInfo) {
         let context  = appDelegate!.persistentContainer.viewContext
         do {
             context.delete(identifer)

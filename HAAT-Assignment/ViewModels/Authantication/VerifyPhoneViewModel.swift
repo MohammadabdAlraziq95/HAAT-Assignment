@@ -14,7 +14,7 @@ class VerifyPhoneViewModel {
     
     func login(phoneNumber: String, authCode: String) {
         authService.loginWithPhone(phoneNumber, authCode) { log in
-            self.verifyDelegate?.loggedIn(logged: log)
+            self.verifyDelegate?.loggedIn(log)
         }
     }
     func prepareAutCode(numbers: [String]) -> String {

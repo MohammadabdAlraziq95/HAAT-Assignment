@@ -10,7 +10,7 @@ import Alamofire
 import AlamofireImage
 extension UIImageView {
     
-    func getImageFromUrl(url: String, completion:@escaping(Bool) -> Void) {
+    func getImageFromUrl(_ url: String, completion:@escaping(Bool) -> Void) {
         AF.request(url).responseImage {[weak self] response in
             switch response.result {
             case .success(let image):

@@ -19,14 +19,14 @@ class HomeViewModel {
         mealService.getMealBrands { [self] result in
             switch result {
             case .success(let mealBrands):
-                homeDelegate.updateBrandMealUI(brandMeals: mealBrands)
+                homeDelegate.updateBrandMealUI(mealBrands)
             case .failure:
                 let mealBrands = MealBrandModel(error: true, msg: "no data", brands: [])
-                homeDelegate.updateBrandMealUI(brandMeals: mealBrands)
+                homeDelegate.updateBrandMealUI(mealBrands)
             }
         }
     }
-    func getCellSize(collectionSize: CGSize) -> CGSize {
+    func getCellSize(_ collectionSize: CGSize) -> CGSize {
         let width = (collectionSize.width / 3) - 10
         let height = collectionSize.height
         return CGSize(width: width, height: height)

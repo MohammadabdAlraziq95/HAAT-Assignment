@@ -32,7 +32,7 @@ class CarouselCollectionViewCell: UICollectionViewCell {
         let nib = UINib(nibName: nibName, bundle: nil)
         return nib.instantiate(withOwner: self, options: nil).first as? UIView
     }
-    func populateData(imageName: String) {
+    func populateData(_ imageName: String) {
         self.carouselImage.image = UIImage(named: imageName)
         self.carouselImage.contentMode = .scaleAspectFill
     }

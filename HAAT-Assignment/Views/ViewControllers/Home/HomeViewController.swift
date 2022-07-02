@@ -42,7 +42,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mealBrandCell", for: indexPath)
                 as? MealBrandCollectionViewCell else { fatalError()}
-        cell.populateData(mealData: self.mealBrands!.brands[indexPath.row])
+        cell.populateData(self.mealBrands!.brands[indexPath.row])
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -53,13 +53,13 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         }
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return (self.homeViewModel?.getCellSize(collectionSize: self.mealBrandsCollectionView!.frame.size))!
+        return (self.homeViewModel?.getCellSize(self.mealBrandsCollectionView!.frame.size))!
     }
 }
 
 extension HomeViewController: HomeDelegate {
     
-    func updateBrandMealUI(brandMeals: MealBrandModel) {
+    func updateBrandMealUI(_ brandMeals: MealBrandModel) {
         self.mealBrands = brandMeals
         self.mealBrandsCollectionView.reloadData()
     }

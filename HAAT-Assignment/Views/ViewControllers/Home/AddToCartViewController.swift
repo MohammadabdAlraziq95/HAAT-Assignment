@@ -22,10 +22,10 @@ class AddToCartViewController: UIViewController {
     private func configureUI() {
         self.selectedMealTitle.text = meal!.title
         self.selectedMealPrice.text = "₪ " + meal!.price
-        self.selectedMealImageView.getImageFromUrl(url: meal!.imageURL, completion: {_ in})
+        self.selectedMealImageView.getImageFromUrl(meal!.imageURL, completion: {_ in})
     }
     @IBAction func addToCartAction(_ sender: Any) {
-        _ = cartViewModel.addToCart(item: self.meal!)
+        _ = cartViewModel.addToCart(self.meal!)
         self.dismiss()
     }
     @IBAction func dismissAction(_ sender: Any) {

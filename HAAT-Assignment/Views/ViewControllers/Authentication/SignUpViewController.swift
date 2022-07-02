@@ -47,7 +47,7 @@ class SignUpViewController: UIViewController {
     }
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if identifier == "continueSegue" {
-            if self.signUpModel.checkPhoneNumberValidation(phoneNumber: getPhoneNumber()) {
+            if self.signUpModel.checkPhoneNumberValidation(getPhoneNumber()) {
                 changePhoneBorder(.lightGray)
                 showPhoneAlert(true)
                 return true
@@ -61,7 +61,7 @@ class SignUpViewController: UIViewController {
         }
     }
     private func getPhoneNumber() -> String {
-        let phoneNumber = signUpModel.preparePhoneNumber(intro: self.introButton.titleLabel!.text!, number: self.phoneNumberCompletionLabel.text!)
+        let phoneNumber = signUpModel.preparePhoneNumber(self.introButton.titleLabel!.text!, self.phoneNumberCompletionLabel.text!)
         return phoneNumber
     }
     private func showPhoneAlert(_ hidden: Bool) {
@@ -78,7 +78,7 @@ class SignUpViewController: UIViewController {
 }
 
 extension SignUpViewController: SignUpDlegate {
-    func updateCountriesUI(countries: CountriesModel) {
+    func updateCountriesUI(_ countries: CountriesModel) {
         countriesModel = countries
         self.phoneIntroTableView.reloadData()
     }
@@ -93,7 +93,7 @@ extension SignUpViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "phoneIntro") as? PhoneIntroTableViewCell else {
             fatalError()
         }
-        cell.populateData(data: self.countriesModel.data[indexPath.row])
+        cell.populateData(self.countriesModel.data[indexPath.row])
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -20,9 +20,9 @@ class CartTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    func populateData(meal: CartItemInfo) {
+    func populateData(_ meal: CartItemInfo) {
         self.cartItem  = meal
-        cartItemImage.getImageFromUrl(url: meal.imageURL!, completion: {_ in})
+        cartItemImage.getImageFromUrl(meal.imageURL!, completion: {_ in})
         titleLabel.text = meal.title
         subtitleLabel.text = meal.title
         priceLabel.text = "₪ " + meal.price!
@@ -33,7 +33,7 @@ class CartTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     @IBAction func deleteCartItemAction(_ sender: Any) {
-        cartCellDelgate?.deleteCartItem(cartItem: self.cartItem!)
+        cartCellDelgate?.deleteCartItem(self.cartItem!)
     }
     override func layoutSubviews() {
         super.layoutSubviews()

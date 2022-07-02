@@ -20,7 +20,7 @@ class PhoneIntroTableViewCell: UITableViewCell {
         
         // Configure the view for the selected state
     }
-    func  populateData(data: Datum) {
+    func  populateData(_ data: Datum) {
         guard let dailCode = data.dialCode else { return }
         self.countryIntroLabel.text = data.unicodeFlag + " " + dailCode
     }

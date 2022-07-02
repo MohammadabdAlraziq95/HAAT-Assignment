@@ -13,7 +13,7 @@ class UserManager {
     private init() {}
     var isUserLoggedIn = false
     
-    func setUserLoggedIn(logged: Bool) {
+    func setUserLoggedIn(_ logged: Bool) {
         let defaults = UserDefaults.standard
         self.isUserLoggedIn = logged
         defaults.set(logged, forKey: "userLogged")

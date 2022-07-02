@@ -8,5 +8,5 @@
 import Foundation
 
 protocol CartCellDelgate: AnyObject {
-    func deleteCartItem(cartItem: CartItemInfo)
+    func deleteCartItem(_ cartItem: CartItemInfo)
 }

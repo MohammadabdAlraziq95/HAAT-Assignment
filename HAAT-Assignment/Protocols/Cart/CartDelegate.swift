@@ -8,5 +8,5 @@
 import Foundation
 
 protocol CartViewModelDelegate: AnyObject {
-  func displayCart(cartItems: [CartItemInfo])
+  func displayCart(_ cartItems: [CartItemInfo])
 }

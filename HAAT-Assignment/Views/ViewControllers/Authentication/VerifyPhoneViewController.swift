@@ -104,7 +104,7 @@ extension VerifyPhoneViewController: UITextFieldDelegate {
 }
 
 extension VerifyPhoneViewController: VerifyDelegate {
-    func loggedIn(logged: Bool) {
-        UserManager.shared.setUserLoggedIn(logged: logged)
+    func loggedIn(_ logged: Bool) {
+        UserManager.shared.setUserLoggedIn(logged)
     }
 }

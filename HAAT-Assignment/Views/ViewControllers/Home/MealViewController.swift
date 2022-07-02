@@ -35,7 +35,7 @@ class MealViewController: UIViewController {
     private func populateData() {
         self.brandTitleLabel.text = self.brandObject?.title
         self.brandSubTitleLabel.text = self.brandObject?.subtitle
-        self.mealImageView.getImageFromUrl(url: self.brandObject!.imageURL, completion: {_ in})
+        self.mealImageView.getImageFromUrl(self.brandObject!.imageURL, completion: {_ in})
     }
 }
 
@@ -47,11 +47,11 @@ extension MealViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mealCell", for: indexPath)
                 as? MealCollectionViewCell else { fatalError()}
-        cell.populateData(mealData: self.brandObject!.meals[indexPath.row])
+        cell.populateData(self.brandObject!.meals[indexPath.row])
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return mealViewModel.getCellSize(collectionSize: mealsCollectionView.frame.size)
+        return mealViewModel.getCellSize(mealsCollectionView.frame.size)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         showMeal(meal: self.brandObject!.meals[indexPath.row])

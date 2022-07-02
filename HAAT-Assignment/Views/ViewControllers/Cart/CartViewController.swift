@@ -45,18 +45,18 @@ extension CartViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cartCell", for: indexPath) as? CartTableViewCell
         cell?.cartCellDelgate = self
-        cell?.populateData(meal: self.cartItems[indexPath.row])
+        cell?.populateData(self.cartItems[indexPath.row])
         return cell!
     }
 }
 extension CartViewController: CartCellDelgate {
-    func deleteCartItem(cartItem: CartItemInfo) {
-        self.cartViewModel.deleteToCart(identifer: cartItem)
+    func deleteCartItem(_ cartItem: CartItemInfo) {
+        self.cartViewModel.deleteToCart(cartItem)
         getData()
     }
 }
 extension CartViewController: CartViewModelDelegate {
-    func displayCart(cartItems: [CartItemInfo]) {
+    func displayCart(_ cartItems: [CartItemInfo]) {
         self.cartItems = cartItems
         self.cartTableView.reloadData()
     }

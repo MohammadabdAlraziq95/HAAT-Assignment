@@ -11,6 +11,10 @@ class ErrorGenerator {
     
     let errorArray = ["index out of range", "error in type", "your variable is nill", "no cart items found"]
     func generateError() -> String {
-        return errorArray.randomElement()!
+        if let element = errorArray.randomElement() {
+            return element
+        } else {
+            return errorArray[0]
+        }
     }
 }

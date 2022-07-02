@@ -30,7 +30,7 @@ extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSo
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "searchCell", for: indexPath)
                 as? MealBrandCollectionViewCell else { fatalError()}
-        cell.populateData(mealData: self.searchItems[indexPath.row])
+        cell.populateData(self.searchItems[indexPath.row])
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -41,16 +41,16 @@ extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSo
         }
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return (self.searchViewModel?.getCellSize(collectionSize: self.resturantsCollectionView!.frame.size))!
+        return (self.searchViewModel?.getCellSize(self.resturantsCollectionView!.frame.size))!
     }
 }
 extension SearchViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        self.searchViewModel!.searchMealBrand(searchText: searchText)
+        self.searchViewModel!.searchMealBrand(searchText)
     }
 }
 extension SearchViewController: SearchDelegate {
-    func updateBrandMealUI(brandMeals: [Brand]) {
+    func updateBrandMealUI(_ brandMeals: [Brand]) {
         self.searchItems = brandMeals
         self.resturantsCollectionView.reloadData()
     }

@@ -22,7 +22,7 @@ class MealService {
             print(error)
         }
     }
-    func searchMeal(searchText: String, completion: @escaping(Result<[Brand], BaseService.APIError>) -> Void) {
+    func searchMeal(_ searchText: String, completion: @escaping(Result<[Brand], BaseService.APIError>) -> Void) {
         
         do {
             if let bundlePath = Bundle.main.path(forResource: "MealBrands", ofType: "json"),

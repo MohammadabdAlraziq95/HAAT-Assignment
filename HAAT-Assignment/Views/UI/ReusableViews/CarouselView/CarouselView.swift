@@ -47,7 +47,7 @@ extension CarouselView: UICollectionViewDelegate, UICollectionViewDataSource, UI
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "carouselViewCell", for: indexPath) as? CarouselCollectionViewCell
-        cell?.populateData(imageName: self.images[indexPath.row])
+        cell?.populateData(self.images[indexPath.row])
         return cell!
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

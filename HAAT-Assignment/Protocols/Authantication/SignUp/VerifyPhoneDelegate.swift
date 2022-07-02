@@ -8,5 +8,5 @@
 import Foundation
 
 protocol VerifyDelegate: AnyObject {
-    func loggedIn(logged: Bool)
+    func loggedIn(_ logged: Bool)
 }

@@ -7,15 +7,15 @@ class CartViewModel: NSObject {
     var cartItems: [CartItemInfo]?
     let coreDataManager = CoreDataManager.sharedInstance
     
-    func addToCart(item: Meal) -> Bool {
-       return coreDataManager.addToCart(item: item)
+    func addToCart(_ item: Meal) -> Bool {
+        return coreDataManager.addToCart(item)
     }
     
-    func deleteToCart(identifer: CartItemInfo) {
-        coreDataManager.deleteToCart(identifer: identifer)
+    func deleteToCart(_ identifer: CartItemInfo) {
+        coreDataManager.deleteToCart(identifer)
     }
     func fetchCart() {
         let result =  coreDataManager.fetchCart()
-        cartDelegate?.displayCart(cartItems: result!)
+        cartDelegate?.displayCart(result!)
     }
 }

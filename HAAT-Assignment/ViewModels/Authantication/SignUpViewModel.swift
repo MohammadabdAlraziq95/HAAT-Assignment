@@ -17,18 +17,18 @@ class SignUpViewModel {
         countriesApi.getAllCountries { [weak self] result in
             switch result {
             case .success(let countries):
-                self?.signUpDelegate!.updateCountriesUI(countries: countries)
+                self?.signUpDelegate!.updateCountriesUI(countries)
                 self?.countries = countries
             case .failure:
                 let countries = CountriesModel(error: true, msg: "No Countries Found", data: [])
-                self?.signUpDelegate!.updateCountriesUI(countries: countries)
+                self?.signUpDelegate!.updateCountriesUI(countries)
             }
         }
     }
-    func checkPhoneNumberValidation(phoneNumber: String) -> Bool {
+    func checkPhoneNumberValidation(_ phoneNumber: String) -> Bool {
         return phoneNumber.isValidPhone()
     }
-    func preparePhoneNumber(intro: String, number: String) -> String {
+    func preparePhoneNumber(_ intro: String,_ number: String) -> String {
         var fullPhoneNumber = intro + number
         fullPhoneNumber.removeFirst()
         let phone = String(fullPhoneNumber).trimmingCharacters(in: .whitespaces)

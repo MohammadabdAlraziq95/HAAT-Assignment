@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 class MealViewModel {
-    func getCellSize(collectionSize: CGSize) -> CGSize {
+    func getCellSize(_ collectionSize: CGSize) -> CGSize {
         let width = (collectionSize.width / 3) - 10
         let height = collectionSize.height
         return CGSize(width: width, height: height)
