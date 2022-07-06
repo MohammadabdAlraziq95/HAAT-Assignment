@@ -10,7 +10,7 @@ import XCTest
 
 class VerifyPhoneViewModelTest: XCTestCase, VerifyDelegate {
     
-    func loggedIn(logged: Bool) {
+    func loggedIn(_ logged: Bool) {
         XCTAssertFalse(logged)
     }
     
@@ -24,7 +24,7 @@ class VerifyPhoneViewModelTest: XCTestCase, VerifyDelegate {
         verifyPhoneViewModel.login(phoneNumber: "+972592750327", authCode: "0000")
         sleep(5)
         verifyPhoneViewModel.verifyDelegate = self
-        verifyPhoneViewModel.verifyDelegate?.loggedIn(logged: false)
+        verifyPhoneViewModel.verifyDelegate?.loggedIn(false)
     }
     func testCheckPrepareAutCode_ShouldEqualOutput() {
         

@@ -17,7 +17,7 @@ class MealViewModelTest: XCTestCase {
 
     func testGetCellSize_shouldMatchGivenCellSize() {
         let collectionSize = CGSize(width: 180, height: 90)
-       let cellSize =  mealViewModel.getCellSize(collectionSize: collectionSize)
+        let cellSize =  mealViewModel.getCellSize(collectionSize)
         
         XCTAssertEqual(cellSize.width, 50)
         XCTAssertEqual(cellSize.height, 90)

@@ -14,17 +14,17 @@ class SearchViewModel {
     func searchMealBrand(_ searchText: String) {
         if searchText.count >= 2 {
             mealService.searchMeal(searchText) { [self] result in
-            switch result {
-            case .success(let brands):
-                DispatchQueue.main.async {
-                    searchDelegate.updateBrandMealUI(brands)
-                }
-            case .failure:
-                DispatchQueue.main.async {
-                    searchDelegate.updateBrandMealUI([])
+                switch result {
+                case .success(let brands):
+                    DispatchQueue.main.async {
+                        searchDelegate.updateBrandMealUI(brands)
+                    }
+                case .failure:
+                    DispatchQueue.main.async {
+                        searchDelegate.updateBrandMealUI([])
+                    }
                 }
             }
-        }
         }
     }
     func getCellSize(_ collectionSize: CGSize) -> CGSize {

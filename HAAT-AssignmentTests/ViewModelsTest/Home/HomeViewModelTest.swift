@@ -11,7 +11,7 @@ class HomeViewModelTest: XCTestCase, HomeDelegate {
     
     var homeViewModel: HomeViewModel!
     
-    func updateBrandMealUI(brandMeals: MealBrandModel) {
+    func updateBrandMealUI(_ brandMeals: MealBrandModel) {
         XCTAssertFalse(brandMeals.error, "should not be error")
     }
     override func setUp() {
