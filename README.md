@@ -95,7 +95,7 @@ Shopping Cart <br />
 Driver Tracking <br />
 
 <p float="left">
-![EE8BBE88-610C-4A94-84C2-9BC16F25D79A](https://user-images.githubusercontent.com/38591209/178689464-18a9497e-8f2a-41e3-95e2-a1cdeae7d5da.png)
+  <img src="https://user-images.githubusercontent.com/38591209/178689464-18a9497e-8f2a-41e3-95e2-a1cdeae7d5da.png)" width="250" /> 
 </p>
 
 Crashlytics and Analysis <br />
