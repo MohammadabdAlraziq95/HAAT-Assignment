@@ -63,10 +63,10 @@ used firebase siwft package to manage crashes using Firebase Crashlytics , Fireb
 
 # Driver Tracking 
 
-  1- used Firebase RealTime Database to store most recent location each 20 second.
-  2- used UserDefualts to store Cache of each location and its time.
-  3- each 20 second app will read new location.
-  4- we update the map marker location.
+  1- used Firebase RealTime Database to store most recent location each 20 second.<br />
+  2- used UserDefualts to store Cache of each location and its time.<br />
+  3- each 20 second app will read new location.<br />
+  4- we update the map marker location.<br />
 
 # Note :
 
