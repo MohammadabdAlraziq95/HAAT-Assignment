@@ -61,11 +61,6 @@ used firebase siwft package to manage crashes using Firebase Crashlytics , Fireb
 
   if you want to test the functionality add "fatalError()" function on (Generate error) Button Action and crash will happen when you click button and Crashlytics will record this. 
 
-
-# video
-
-https://user-images.githubusercontent.com/38591209/176475430-87e61b5a-2615-4a41-82dc-af97afddc5a1.mov
-
 # Driver Tracking 
 
   1- used Firebase RealTime Database to store most recent location each 20 second.
@@ -76,6 +71,10 @@ https://user-images.githubusercontent.com/38591209/176475430-87e61b5a-2615-4a41-
 # Note :
 
  Realtime Database not costing from network wize cause Realtime data means that any updates made to the database will be sent out to client apps subscribed to that stream of data.
+
+# video
+
+https://user-images.githubusercontent.com/38591209/176475430-87e61b5a-2615-4a41-82dc-af97afddc5a1.mov
 
 
 # Screenshots
