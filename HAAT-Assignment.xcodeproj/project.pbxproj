@@ -45,6 +45,7 @@
 		0C64F5AB286B555700D3F48C /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C64F5AA286B555700D3F48C /* AppRouter.swift */; };
 		0C64F5AF286B7A6C00D3F48C /* ErrorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C64F5AE286B7A6B00D3F48C /* ErrorGenerator.swift */; };
 		0C7EAA0E287EBCB20073A599 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7EAA0D287EBCB20073A599 /* map.png */; };
+		0C7EAA11287EC1100073A599 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7EAA10287EC10F0073A599 /* Marker.swift */; };
 		0CB9680E2868EF08001F3C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9680D2868EF08001F3C65 /* AppDelegate.swift */; };
 		0CB968102868EF08001F3C65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9680F2868EF08001F3C65 /* SceneDelegate.swift */; };
 		0CB968152868EF08001F3C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB968132868EF08001F3C65 /* Main.storyboard */; };
@@ -165,6 +166,7 @@
 		0C64F5AA286B555700D3F48C /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		0C64F5AE286B7A6B00D3F48C /* ErrorGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorGenerator.swift; sourceTree = "<group>"; };
 		0C7EAA0D287EBCB20073A599 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		0C7EAA10287EC10F0073A599 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		0CB9680A2868EF08001F3C65 /* HAAT-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HAAT-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB9680D2868EF08001F3C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CB9680F2868EF08001F3C65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -369,6 +371,14 @@
 			path = AppRouter;
 			sourceTree = "<group>";
 		};
+		0C7EAA0F287EC0FE0073A599 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0C7EAA10287EC10F0073A599 /* Marker.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		0CB968012868EF08001F3C65 = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +442,7 @@
 		0CB968402868F03E001F3C65 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0C7EAA0F287EC0FE0073A599 /* Map */,
 				0CB968A42869BE25001F3C65 /* Home */,
 				0CB9688328699203001F3C65 /* Authantication */,
 			);
@@ -1196,6 +1207,7 @@
 				0CB968182868EF08001F3C65 /* HAAT_Assignment.xcdatamodeld in Sources */,
 				0CB968A32869BE1E001F3C65 /* MealBrandModel.swift in Sources */,
 				0C043EFB287CCA2B00BB967F /* UIColor+Extension.swift in Sources */,
+				0C7EAA11287EC1100073A599 /* Marker.swift in Sources */,
 				0CB968822869905B001F3C65 /* BaseService.swift in Sources */,
 				0C633925286A2239003B4F07 /* CoreDataManager.swift in Sources */,
 				0CB968902869A4B9001F3C65 /* UIButton+Extension.swift in Sources */,

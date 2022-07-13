@@ -9,14 +9,6 @@ import UIKit
 import GoogleMaps
 import CoreLocation
 
-struct Marker {
-    var marker: UIImage
-    var size: Int = 35
-    var lat: Double
-    var lng: Double
-    var zIndex: Int32 = 0
-    var currentLocation: Bool = false
-}
 
 class MapViewController: UIViewController {
 
