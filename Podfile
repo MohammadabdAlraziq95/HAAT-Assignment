@@ -12,7 +12,13 @@ target 'HAAT-Assignment' do
   pod 'SwiftLint'
   pod 'Alamofire'
   pod 'AlamofireImage'
-  
+  pod 'GoogleMaps'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'Firebase/Database'
+  pod 'FirebaseAnalytics'
+  pod 'Firebase/Crashlytics'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
   target 'HAAT-AssignmentTests' do
     inherit! :search_paths
     # Pods for testing

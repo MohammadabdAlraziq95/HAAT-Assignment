@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C043EF6287CC99000BB967F /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C043EF5287CC99000BB967F /* Map.storyboard */; };
+		0C043EF9287CC9A300BB967F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C043EF8287CC9A300BB967F /* MapViewController.swift */; };
+		0C043EFB287CCA2B00BB967F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C043EFA287CCA2B00BB967F /* UIColor+Extension.swift */; };
+		0C043EFD287CCA5000BB967F /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C043EFC287CCA5000BB967F /* Double+Extension.swift */; };
+		0C043F00287CCAB300BB967F /* RealTimeDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C043EFF287CCAB300BB967F /* RealTimeDBAPI.swift */; };
+		0C043F02287CCAD200BB967F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C043F01287CCAD200BB967F /* LocationManager.swift */; };
+		0C043F04287CCAE900BB967F /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C043F03287CCAE900BB967F /* Cache.swift */; };
+		0C043F06287CCB3100BB967F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C043F05287CCB3100BB967F /* Constants.swift */; };
+		0C043F0A287DF80A00BB967F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C043F09287DF80A00BB967F /* MapKit.framework */; };
 		0C4A86E9286BA7B10031D057 /* VerifyPhoneViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A86E8286BA7B10031D057 /* VerifyPhoneViewModelTest.swift */; };
 		0C4A86EB286BAFD60031D057 /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A86EA286BAFD60031D057 /* HomeViewModelTest.swift */; };
 		0C4A86ED286BB3C00031D057 /* MealViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A86EC286BB3C00031D057 /* MealViewModelTest.swift */; };
 		0C4A86EF286BB6E90031D057 /* CartViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A86EE286BB6E90031D057 /* CartViewModelTest.swift */; };
-		0C4A86F6286C3A170031D057 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A86F5286C3A170031D057 /* FirebaseAnalytics */; };
-		0C4A86F8286C3A170031D057 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A86F7286C3A170031D057 /* FirebaseAnalyticsOnDeviceConversion */; };
-		0C4A86FA286C3A170031D057 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A86F9286C3A170031D057 /* FirebaseAnalyticsSwift */; };
-		0C4A86FC286C3A170031D057 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A86FB286C3A170031D057 /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		0C4A86FE286C3A170031D057 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A86FD286C3A170031D057 /* FirebaseAppCheck */; };
-		0C4A8700286C3A170031D057 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A86FF286C3A170031D057 /* FirebaseAppDistribution-Beta */; };
-		0C4A8702286C3A170031D057 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A8701286C3A170031D057 /* FirebaseCrashlytics */; };
-		0C4A8704286C3A170031D057 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4A8703286C3A170031D057 /* FirebasePerformance */; };
 		0C4A8707286C3E520031D057 /* CountriesApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A8706286C3E520031D057 /* CountriesApiTest.swift */; };
 		0C4A8709286C4C0B0031D057 /* AuthServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A8708286C4C0B0031D057 /* AuthServiceTest.swift */; };
 		0C4A870B286C4E800031D057 /* MealServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A870A286C4E800031D057 /* MealServiceTest.swift */; };
@@ -124,6 +125,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050F5480F131AD6C5D396897 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment-HAAT-AssignmentUITests/Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C043EF5287CC99000BB967F /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		0C043EF8287CC9A300BB967F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0C043EFA287CCA2B00BB967F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0C043EFC287CCA5000BB967F /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		0C043EFF287CCAB300BB967F /* RealTimeDBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeDBAPI.swift; sourceTree = "<group>"; };
+		0C043F01287CCAD200BB967F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0C043F03287CCAE900BB967F /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		0C043F05287CCB3100BB967F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0C043F09287DF80A00BB967F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0C4A86E8286BA7B10031D057 /* VerifyPhoneViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneViewModelTest.swift; sourceTree = "<group>"; };
 		0C4A86EA286BAFD60031D057 /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
 		0C4A86EC286BB3C00031D057 /* MealViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModelTest.swift; sourceTree = "<group>"; };
@@ -217,13 +228,12 @@
 		0CF9DB7F286B9A600040FBE2 /* SignUpViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModelTest.swift; sourceTree = "<group>"; };
 		12D4C93F43601E0151D5EA71 /* Pods_HAAT_Assignment_HAAT_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAAT_Assignment_HAAT_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FDEE002C0D3B70657C4CF8 /* Pods_HAAT_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAAT_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64251D9D1EE626ABB5B6A04A /* Pods-HAAT-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment.debug.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment/Pods-HAAT-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
-		6DF1FD71BBE4E5003178CA64 /* Pods-HAAT-AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HAAT-AssignmentTests/Pods-HAAT-AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DDFD372565ECA0A352664AF /* Pods_HAAT_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAAT_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2F04FB5DD321CA2B3208C29 /* Pods-HAAT-AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-HAAT-AssignmentTests/Pods-HAAT-AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		CD501C51780AC93A819D1A73 /* Pods-HAAT-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment.release.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment/Pods-HAAT-Assignment.release.xcconfig"; sourceTree = "<group>"; };
-		E20160BA57B691F090A4AA14 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment-HAAT-AssignmentUITests/Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F5CE4F3E015281116E65599C /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment-HAAT-AssignmentUITests/Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C181C77661EA3BDB2CDEBB8 /* Pods-HAAT-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment.debug.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment/Pods-HAAT-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6BA87B2EBB9AF10A38AACC /* Pods-HAAT-AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HAAT-AssignmentTests/Pods-HAAT-AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5646E7ACB53494B3E824D6C /* Pods-HAAT-AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-HAAT-AssignmentTests/Pods-HAAT-AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		DACCD124EC8BE504D1020975 /* Pods-HAAT-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment.release.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment/Pods-HAAT-Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		E522BD250FC652A581601180 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-HAAT-Assignment-HAAT-AssignmentUITests/Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,14 +241,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4A8700286C3A170031D057 /* FirebaseAppDistribution-Beta in Frameworks */,
-				0C4A86FA286C3A170031D057 /* FirebaseAnalyticsSwift in Frameworks */,
-				0C4A8704286C3A170031D057 /* FirebasePerformance in Frameworks */,
-				0C4A86FC286C3A170031D057 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
-				0C4A86F6286C3A170031D057 /* FirebaseAnalytics in Frameworks */,
-				0C4A86F8286C3A170031D057 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				0C4A8702286C3A170031D057 /* FirebaseCrashlytics in Frameworks */,
-				0C4A86FE286C3A170031D057 /* FirebaseAppCheck in Frameworks */,
+				0C043F0A287DF80A00BB967F /* MapKit.framework in Frameworks */,
 				6E401BC9A10981BAE58A0D18 /* Pods_HAAT_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +265,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C043EF4287CC99000BB967F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0C043EF5287CC99000BB967F /* Map.storyboard */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		0C043EF7287CC9A300BB967F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0C043EF8287CC9A300BB967F /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		0C043EFE287CCA8800BB967F /* MapService */ = {
+			isa = PBXGroup;
+			children = (
+				0C043EFF287CCAB300BB967F /* RealTimeDBAPI.swift */,
+				0C043F01287CCAD200BB967F /* LocationManager.swift */,
+				0C043F03287CCAE900BB967F /* Cache.swift */,
+			);
+			path = MapService;
+			sourceTree = "<group>";
+		};
 		0C4A86F0286BBCDC0031D057 /* ViewModelsTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,9 +373,9 @@
 				0CB9680C2868EF08001F3C65 /* HAAT-Assignment */,
 				0CB968262868EF0A001F3C65 /* HAAT-AssignmentTests */,
 				0CB968302868EF0A001F3C65 /* HAAT-AssignmentUITests */,
-				61F5C7584EC5B13320D98A2F /* Pods */,
 				0CB9680B2868EF08001F3C65 /* Products */,
 				0CB9684E2868F3C7001F3C65 /* README.md */,
+				613E42FEAB186B71CBA6F2D3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -453,6 +482,8 @@
 				0CB968912869A684001F3C65 /* UITextFiled+Extension.swift */,
 				0CB968932869B088001F3C65 /* UIView+Extension.swift */,
 				0C64F59D286B0E1000D3F48C /* String+Extension.swift */,
+				0C043EFA287CCA2B00BB967F /* UIColor+Extension.swift */,
+				0C043EFC287CCA5000BB967F /* Double+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -460,6 +491,7 @@
 		0CB968492868F198001F3C65 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				0C043EFE287CCA8800BB967F /* MapService */,
 				0CB968AF2869C8F3001F3C65 /* MealService */,
 				0CB968812869905B001F3C65 /* BaseService.swift */,
 				0CB9687E28698FCE001F3C65 /* CountiesApi */,
@@ -471,6 +503,7 @@
 		0CB9684B2868F1D4001F3C65 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				0C043EF4287CC99000BB967F /* Map */,
 				0CD5D8C62871085C003D2F14 /* Search */,
 				0CB9685F2869044F001F3C65 /* Launch */,
 				0CB9685E28690443001F3C65 /* Main */,
@@ -503,6 +536,7 @@
 		0CB968502868F3EF001F3C65 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0C043EF7287CC9A300BB967F /* Map */,
 				0CB9686F286907F4001F3C65 /* Main */,
 				0CB968632869061D001F3C65 /* Cart */,
 				0CB9686228690612001F3C65 /* Home */,
@@ -603,6 +637,7 @@
 				0CB968AD2869C4D9001F3C65 /* Managers */,
 				0CB968AC2869C4D0001F3C65 /* FakeData */,
 				0C64F5AE286B7A6B00D3F48C /* ErrorGenerator.swift */,
+				0C043F05287CCB3100BB967F /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -788,6 +823,7 @@
 		1F37BCD6200AC9495EFE902D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C043F09287DF80A00BB967F /* MapKit.framework */,
 				33FDEE002C0D3B70657C4CF8 /* Pods_HAAT_Assignment.framework */,
 				12D4C93F43601E0151D5EA71 /* Pods_HAAT_Assignment_HAAT_AssignmentUITests.framework */,
 				8DDFD372565ECA0A352664AF /* Pods_HAAT_AssignmentTests.framework */,
@@ -795,15 +831,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		61F5C7584EC5B13320D98A2F /* Pods */ = {
+		613E42FEAB186B71CBA6F2D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				64251D9D1EE626ABB5B6A04A /* Pods-HAAT-Assignment.debug.xcconfig */,
-				CD501C51780AC93A819D1A73 /* Pods-HAAT-Assignment.release.xcconfig */,
-				F5CE4F3E015281116E65599C /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig */,
-				E20160BA57B691F090A4AA14 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig */,
-				6DF1FD71BBE4E5003178CA64 /* Pods-HAAT-AssignmentTests.debug.xcconfig */,
-				C2F04FB5DD321CA2B3208C29 /* Pods-HAAT-AssignmentTests.release.xcconfig */,
+				9C181C77661EA3BDB2CDEBB8 /* Pods-HAAT-Assignment.debug.xcconfig */,
+				DACCD124EC8BE504D1020975 /* Pods-HAAT-Assignment.release.xcconfig */,
+				050F5480F131AD6C5D396897 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig */,
+				E522BD250FC652A581601180 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig */,
+				CE6BA87B2EBB9AF10A38AACC /* Pods-HAAT-AssignmentTests.debug.xcconfig */,
+				D5646E7ACB53494B3E824D6C /* Pods-HAAT-AssignmentTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -820,24 +856,14 @@
 				0CB968072868EF08001F3C65 /* Frameworks */,
 				0CB968082868EF08001F3C65 /* Resources */,
 				0CB968542868FC98001F3C65 /* ShellScript */,
-				0C64F5A3286B365900D3F48C /* ShellScript */,
 				D033CF64D3183B4CCBD09744 /* [CP] Embed Pods Frameworks */,
+				8477C3F4B7420528D7CD6BCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "HAAT-Assignment";
-			packageProductDependencies = (
-				0C4A86F5286C3A170031D057 /* FirebaseAnalytics */,
-				0C4A86F7286C3A170031D057 /* FirebaseAnalyticsOnDeviceConversion */,
-				0C4A86F9286C3A170031D057 /* FirebaseAnalyticsSwift */,
-				0C4A86FB286C3A170031D057 /* FirebaseAnalyticsWithoutAdIdSupport */,
-				0C4A86FD286C3A170031D057 /* FirebaseAppCheck */,
-				0C4A86FF286C3A170031D057 /* FirebaseAppDistribution-Beta */,
-				0C4A8701286C3A170031D057 /* FirebaseCrashlytics */,
-				0C4A8703286C3A170031D057 /* FirebasePerformance */,
-			);
 			productName = "HAAT-Assignment";
 			productReference = 0CB9680A2868EF08001F3C65 /* HAAT-Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -870,6 +896,7 @@
 				0CB9682A2868EF0A001F3C65 /* Frameworks */,
 				0CB9682B2868EF0A001F3C65 /* Resources */,
 				E9288C432FFCB20DCBE9574C /* [CP] Embed Pods Frameworks */,
+				119063C0ED613924DF5C397E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -913,9 +940,6 @@
 				Base,
 			);
 			mainGroup = 0CB968012868EF08001F3C65;
-			packageReferences = (
-				0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = 0CB9680B2868EF08001F3C65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -941,6 +965,7 @@
 				0CF0A14B286C9F9300B276E0 /* Cart.png in Resources */,
 				0CB9685D2869042A001F3C65 /* Authentication.storyboard in Resources */,
 				0CB9681D2868EF0A001F3C65 /* LaunchScreen.storyboard in Resources */,
+				0C043EF6287CC99000BB967F /* Map.storyboard in Resources */,
 				0CF0A149286C9F9300B276E0 /* SignUp.png in Resources */,
 				0CF0A14E286C9F9300B276E0 /* Launch.png in Resources */,
 				0CB968982869B26F001F3C65 /* CarouselView.xib in Resources */,
@@ -980,25 +1005,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C64F5A3286B365900D3F48C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
-				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
-		};
 		0CB968542868FC98001F3C65 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1038,6 +1044,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		119063C0ED613924DF5C397E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAAT-Assignment-HAAT-AssignmentUITests/Pods-HAAT-Assignment-HAAT-AssignmentUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAAT-Assignment-HAAT-AssignmentUITests/Pods-HAAT-Assignment-HAAT-AssignmentUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HAAT-Assignment-HAAT-AssignmentUITests/Pods-HAAT-Assignment-HAAT-AssignmentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		45D035A1D20E4D9C7FDD6BF0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1058,6 +1081,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8477C3F4B7420528D7CD6BCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAAT-Assignment/Pods-HAAT-Assignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAAT-Assignment/Pods-HAAT-Assignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HAAT-Assignment/Pods-HAAT-Assignment-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD387BBC22512D7B4A7BE2FD /* [CP] Check Pods Manifest.lock */ = {
@@ -1135,6 +1175,7 @@
 				0CB9688028698FEB001F3C65 /* CountriesApi.swift in Sources */,
 				0CB968712869081C001F3C65 /* MainTabbar.swift in Sources */,
 				0CB968662869064B001F3C65 /* CartViewController.swift in Sources */,
+				0C043F02287CCAD200BB967F /* LocationManager.swift in Sources */,
 				0C64F596286B04F900D3F48C /* CartDelegate.swift in Sources */,
 				0CB968A72869C112001F3C65 /* HomeViewModel.swift in Sources */,
 				0CF0A13A286C921400B276E0 /* SearchViewModel.swift in Sources */,
@@ -1150,17 +1191,21 @@
 				0CB968922869A684001F3C65 /* UITextFiled+Extension.swift in Sources */,
 				0CB968182868EF08001F3C65 /* HAAT_Assignment.xcdatamodeld in Sources */,
 				0CB968A32869BE1E001F3C65 /* MealBrandModel.swift in Sources */,
+				0C043EFB287CCA2B00BB967F /* UIColor+Extension.swift in Sources */,
 				0CB968822869905B001F3C65 /* BaseService.swift in Sources */,
 				0C633925286A2239003B4F07 /* CoreDataManager.swift in Sources */,
 				0CB968902869A4B9001F3C65 /* UIButton+Extension.swift in Sources */,
 				0CB9689D2869B55F001F3C65 /* CarouselCollectionViewCell.swift in Sources */,
+				0C043EF9287CC9A300BB967F /* MapViewController.swift in Sources */,
 				0CB9687428690E37001F3C65 /* AuthService.swift in Sources */,
 				0CF0A138286C8CC700B276E0 /* SearchViewController.swift in Sources */,
 				0C633927286A3225003B4F07 /* CartTableViewCell.swift in Sources */,
 				0C64F598286B052300D3F48C /* CartCellDelegate.swift in Sources */,
 				0C6339202869F078003B4F07 /* MealCollectionViewCell.swift in Sources */,
+				0C043F00287CCAB300BB967F /* RealTimeDBAPI.swift in Sources */,
 				0CB968A12869BC42001F3C65 /* MealBrandCollectionViewCell.swift in Sources */,
 				0CB968102868EF08001F3C65 /* SceneDelegate.swift in Sources */,
+				0C043F04287CCAE900BB967F /* Cache.swift in Sources */,
 				0CB9687D28698BEE001F3C65 /* PhoneIntroTableViewCell.swift in Sources */,
 				0C64F5AF286B7A6C00D3F48C /* ErrorGenerator.swift in Sources */,
 				0CB96879286911AB001F3C65 /* AuthNavigation.swift in Sources */,
@@ -1169,7 +1214,9 @@
 				0C64F59A286B08BC00D3F48C /* UserModel.swift in Sources */,
 				0CB9687728690F24001F3C65 /* UserManager.swift in Sources */,
 				0CB9686C28690678001F3C65 /* VerifyPhoneViewController.swift in Sources */,
+				0C043EFD287CCA5000BB967F /* Double+Extension.swift in Sources */,
 				0CB9689A2869B287001F3C65 /* CarouselView.swift in Sources */,
+				0C043F06287CCB3100BB967F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1351,7 +1398,7 @@
 		};
 		0CB968382868EF0A001F3C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64251D9D1EE626ABB5B6A04A /* Pods-HAAT-Assignment.debug.xcconfig */;
+			baseConfigurationReference = 9C181C77661EA3BDB2CDEBB8 /* Pods-HAAT-Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1361,19 +1408,23 @@
 				DEVELOPMENT_TEAM = 48C52W7Q47;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HAAT-Assignment/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Haat;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "app want to use your location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "app want to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haat.HAAT-Assignment";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1383,7 +1434,7 @@
 		};
 		0CB968392868EF0A001F3C65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD501C51780AC93A819D1A73 /* Pods-HAAT-Assignment.release.xcconfig */;
+			baseConfigurationReference = DACCD124EC8BE504D1020975 /* Pods-HAAT-Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1393,19 +1444,23 @@
 				DEVELOPMENT_TEAM = 48C52W7Q47;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HAAT-Assignment/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Haat;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "app want to use your location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "app want to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haat.HAAT-Assignment";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1415,7 +1470,7 @@
 		};
 		0CB9683B2868EF0A001F3C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DF1FD71BBE4E5003178CA64 /* Pods-HAAT-AssignmentTests.debug.xcconfig */;
+			baseConfigurationReference = CE6BA87B2EBB9AF10A38AACC /* Pods-HAAT-AssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1435,7 +1490,7 @@
 		};
 		0CB9683C2868EF0A001F3C65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2F04FB5DD321CA2B3208C29 /* Pods-HAAT-AssignmentTests.release.xcconfig */;
+			baseConfigurationReference = D5646E7ACB53494B3E824D6C /* Pods-HAAT-AssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1455,7 +1510,7 @@
 		};
 		0CB9683E2868EF0A001F3C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5CE4F3E015281116E65599C /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig */;
+			baseConfigurationReference = 050F5480F131AD6C5D396897 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1473,7 +1528,7 @@
 		};
 		0CB9683F2868EF0A001F3C65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E20160BA57B691F090A4AA14 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig */;
+			baseConfigurationReference = E522BD250FC652A581601180 /* Pods-HAAT-Assignment-HAAT-AssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1529,60 +1584,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		0C4A86F5286C3A170031D057 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		0C4A86F7286C3A170031D057 /* FirebaseAnalyticsOnDeviceConversion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsOnDeviceConversion;
-		};
-		0C4A86F9286C3A170031D057 /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		0C4A86FB286C3A170031D057 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsWithoutAdIdSupport;
-		};
-		0C4A86FD286C3A170031D057 /* FirebaseAppCheck */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAppCheck;
-		};
-		0C4A86FF286C3A170031D057 /* FirebaseAppDistribution-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAppDistribution-Beta";
-		};
-		0C4A8701286C3A170031D057 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		0C4A8703286C3A170031D057 /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C4A86F4286C3A170031D057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0CB968162868EF08001F3C65 /* HAAT_Assignment.xcdatamodeld */ = {

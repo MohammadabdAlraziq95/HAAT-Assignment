@@ -28,7 +28,7 @@ class SignUpViewModel {
     func checkPhoneNumberValidation(_ phoneNumber: String) -> Bool {
         return phoneNumber.isValidPhone()
     }
-    func preparePhoneNumber(_ intro: String,_ number: String) -> String {
+    func preparePhoneNumber(_ intro: String, _ number: String) -> String {
         var fullPhoneNumber = intro + number
         fullPhoneNumber.removeFirst()
         let phone = String(fullPhoneNumber).trimmingCharacters(in: .whitespaces)
