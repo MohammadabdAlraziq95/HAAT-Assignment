@@ -95,7 +95,9 @@ Shopping Cart <br />
 Driver Tracking <br />
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/38591209/178689464-18a9497e-8f2a-41e3-95e2-a1cdeae7d5da.png)" width="250" /> 
+  
+  <img src="/HAAT-Assignment/Resources/Screenshots/map.png" width="250" />
+
 </p>
 
 Crashlytics and Analysis <br />
